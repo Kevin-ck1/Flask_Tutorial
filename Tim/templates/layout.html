@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flask Tutorial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    {% include "navbar.html" %}
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
